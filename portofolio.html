@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio & Studi Kasus – NexaWeb Studio</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="top-announcement">
+  🎉 Promo November: Gratis Halaman Extra untuk Paket Standard! <a href="layanan.html">Lihat Paket</a>
+</div>
+<header class="site-header">
+  <div class="container nav-inner">
+    <a href="index.html" class="brand-logo">
+      <div class="brand-badge">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+          <polyline points="2 17 12 22 22 17"></polyline>
+          <polyline points="2 12 12 17 22 12"></polyline>
+        </svg>
+      </div>
+      NexaWeb Studio
+    </a>
+    <nav class="main-nav" id="mainNav">
+      <a href="index.html" class="nav-link">Home</a>
+<a href="layanan.html" class="nav-link">Layanan</a>
+<a href="portofolio.html" class="nav-link active">Portofolio</a>
+<a href="proses.html" class="nav-link">Proses</a>
+<a href="blog.html" class="nav-link">Blog</a>
+<a href="tentang.html" class="nav-link">Tentang</a>
+<a href="kontak.html" class="nav-link">Kontak</a>
+
+    </nav>
+    <div class="nav-cta-group">
+      <a href="kontak.html" class="btn btn-gold">Konsultasi Gratis</a>
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+
+<!-- Banner -->
+<div style="background: linear-gradient(135deg, var(--navy-900), var(--navy-700)); padding: 4rem 0 3.5rem;">
+  <div class="container" style="text-align:center;">
+    <div class="section-label" style="color:var(--gold-400); justify-content:center;">Menu 02: Halaman Portofolio</div>
+    <h1 style="color:#fff; font-size:2.8rem; margin:0.8rem 0;">Galeri Karya &amp; <span style="color:var(--gold-400);">Studi Kasus Nyata</span></h1>
+    <p style="color:rgba(255,255,255,0.7); max-width:650px; margin:0 auto;">Dokumentasi hasil pengerjaan proyek, solusi desain yang diterapkan, dan dampak pertumbuhan bisnis untuk setiap klien kami.</p>
+  </div>
+</div>
+
+<!-- Portfolio Grid -->
+<section class="portfolio-section">
+  <div class="container">
+    <div class="filter-tabs">
+      <button class="tab-btn active" data-filter="all">Semua Kategori</button>
+      <button class="tab-btn" data-filter="kuliner">Kuliner &amp; F&B</button>
+      <button class="tab-btn" data-filter="personal">Personal &amp; Kreator</button>
+      <button class="tab-btn" data-filter="korporat">Organisasi &amp; Korporat</button>
+      <button class="tab-btn" data-filter="retail">E-Commerce &amp; Retail</button>
+    </div>
+
+    <div class="portfolio-grid">
+      <!-- 1 -->
+      <div class="portfolio-card" data-category="kuliner">
+        <div class="portfolio-preview">
+          <svg viewBox="0 0 600 375" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="600" height="375" fill="#f5f0e8"/>
+            <rect x="40" y="30" width="520" height="310" rx="10" fill="#fffdf8" stroke="#e2d5b8" stroke-width="1.5"/>
+            <rect x="40" y="30" width="520" height="52" rx="10" fill="#78350f"/>
+            <circle cx="65" cy="56" r="4" fill="#fcd34d"/>
+            <circle cx="82" cy="56" r="4" fill="#fcd34d" fill-opacity="0.6"/>
+            <circle cx="99" cy="56" r="4" fill="#fcd34d" fill-opacity="0.3"/>
+            <rect x="65" y="105" width="180" height="20" rx="4" fill="#78350f"/>
+            <rect x="65" y="135" width="240" height="10" rx="2" fill="#d6d3d1"/>
+            <rect x="65" y="152" width="200" height="10" rx="2" fill="#d6d3d1"/>
+            <rect x="65" y="185" width="120" height="34" rx="17" fill="#d97706"/>
+            <circle cx="430" cy="210" r="90" fill="#fef3c7" stroke="#f59e0b" stroke-width="2"/>
+            <circle cx="430" cy="185" r="30" fill="#fbbf24"/>
+            <rect x="400" y="225" width="60" height="8" rx="4" fill="#78350f"/>
+          </svg>
+        </div>
+        <div class="portfolio-info">
+          <div class="portfolio-cat">Kuliner &amp; F&B</div>
+          <h3 class="portfolio-title">Kopi Senja Artisan Cafe</h3>
+          <p class="portfolio-desc">Katalog menu QR-code mobile dan reservasi WhatsApp yang menaikkan kunjungan pelanggan 140%.</p>
+          <div class="portfolio-footer">
+            <button onclick="openPortfolioModal('kopi-senja')" class="btn btn-outline-navy" style="padding:0.45rem 1rem;font-size:0.82rem;">Detail Proyek</button>
+            <button onclick="simulateLiveDemo('Kopi Senja Artisan Cafe')" class="btn btn-gold" style="padding:0.45rem 1rem;font-size:0.82rem;">Preview Demo</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2 -->
+      <div class="portfolio-card" data-category="personal">
+        <div class="portfolio-preview">
+          <svg viewBox="0 0 600 375" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="600" height="375" fill="#f8fafc"/>
+            <rect x="40" y="30" width="520" height="310" rx="10" fill="#fff" stroke="#e2e8f0" stroke-width="1.5"/>
+            <rect x="40" y="30" width="520" height="52" rx="10" fill="#1e3a7a"/>
+            <circle cx="65" cy="56" r="4" fill="#93c5fd"/>
+            <rect x="65" y="105" width="150" height="22" rx="4" fill="#1e3a7a"/>
+            <rect x="65" y="137" width="200" height="10" rx="2" fill="#cbd5e1"/>
+            <rect x="65" y="175" width="110" height="32" rx="6" fill="#c9a227"/>
+            <rect x="300" y="98" width="230" height="130" rx="8" fill="#f1f5f9" stroke="#e2e8f0"/>
+            <rect x="300" y="240" width="110" height="80" rx="6" fill="#dbeafe"/>
+            <rect x="420" y="240" width="110" height="80" rx="6" fill="#dcfce7"/>
+          </svg>
+        </div>
+        <div class="portfolio-info">
+          <div class="portfolio-cat">Personal &amp; Freelancer</div>
+          <h3 class="portfolio-title">ArchiVibe Studio Arsitektur</h3>
+          <p class="portfolio-desc">Galeri masonry resolusi tinggi untuk personal branding arsitek dengan integrasi brief proyek.</p>
+          <div class="portfolio-footer">
+            <button onclick="openPortfolioModal('arch-studio')" class="btn btn-outline-navy" style="padding:0.45rem 1rem;font-size:0.82rem;">Detail Proyek</button>
+            <button onclick="simulateLiveDemo('ArchiVibe Architecture Studio')" class="btn btn-gold" style="padding:0.45rem 1rem;font-size:0.82rem;">Preview Demo</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3 -->
+      <div class="portfolio-card" data-category="korporat">
+        <div class="portfolio-preview">
+          <svg viewBox="0 0 600 375" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="600" height="375" fill="#f0f4fc"/>
+            <rect x="40" y="30" width="520" height="310" rx="10" fill="#fff" stroke="#e2e8f0" stroke-width="1.5"/>
+            <rect x="40" y="30" width="520" height="52" rx="10" fill="#0d1b3e"/>
+            <circle cx="65" cy="56" r="4" fill="#60a5fa"/>
+            <rect x="65" y="105" width="140" height="22" rx="4" fill="#0d1b3e"/>
+            <rect x="65" y="137" width="210" height="10" rx="2" fill="#94a3b8"/>
+            <rect x="65" y="185" width="120" height="32" rx="6" fill="#2548a0"/>
+            <rect x="310" y="90" width="210" height="110" rx="10" fill="#eff6ff" stroke="#93c5fd" stroke-width="1.5"/>
+            <rect x="325" y="108" width="80" height="8" rx="3" fill="#2548a0"/>
+            <rect x="325" y="124" width="130" height="6" rx="2" fill="#93c5fd"/>
+            <rect x="325" y="155" width="60" height="22" rx="5" fill="#0d1b3e"/>
+          </svg>
+        </div>
+        <div class="portfolio-info">
+          <div class="portfolio-cat">Organisasi &amp; Korporat</div>
+          <h3 class="portfolio-title">Logistik Prima Express</h3>
+          <p class="portfolio-desc">Website korporat berbadan hukum dengan sistem pelacak status pengiriman dan peta jaringan cabang.</p>
+          <div class="portfolio-footer">
+            <button onclick="openPortfolioModal('logistik-prima')" class="btn btn-outline-navy" style="padding:0.45rem 1rem;font-size:0.82rem;">Detail Proyek</button>
+            <button onclick="simulateLiveDemo('Logistik Prima Express')" class="btn btn-gold" style="padding:0.45rem 1rem;font-size:0.82rem;">Preview Demo</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Modal Detail -->
+<div class="modal-overlay" id="portfolioModal">
+  <div class="modal-container">
+    <button class="modal-close" onclick="closeModal('portfolioModal')" aria-label="Tutup">✕</button>
+    <div id="portfolioModalBody"></div>
+  </div>
+</div>
+
+
+
+<footer class="site-footer" style="padding: 2.5rem 0;">
+  <div class="container footer-bottom">
+    <div>© 2026 NexaWeb Studio. Seluruh hak cipta dilindungi.</div>
+    <div class="footer-legal">
+      <a href="faq.html">FAQ</a>
+      <a href="syarat-ketentuan.html">Syarat &amp; Ketentuan</a>
+      <a href="kontak.html">Kontak</a>
+    </div>
+  </div>
+</footer>
+<a href="https://wa.me/6282352704177?text=Halo%20NexaWeb%20Studio,%20saya%20ingin%20konsultasi%20website" target="_blank" class="fab-whatsapp" aria-label="Chat WhatsApp">
+  <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+    <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+  </svg>
+</a>
+<script src="js/app.js"></script>
+</body>
+</html>
